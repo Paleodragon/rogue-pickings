@@ -1,0 +1,133 @@
+/****Base Styles****/
+body {
+  background: white;
+  color: #2b2b2b;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  margin-left: 18px;
+}
+
+a{
+  color: #77a466;
+  text-decoration: none;
+}
+
+span{
+  color: #77a466;
+}
+
+/****Grid Styles****/
+.full-width {
+  float: left;
+  margin: 0, auto;
+  width: 1200px;
+}
+
+.half-width{
+width: 600px;
+float: left;
+}
+
+.third-width{
+  width: 396px;
+  float: left;
+}
+
+/****Header Styles****/
+
+nav ul li{
+  display:inline-block;
+  padding-top: 25px;
+}
+
+nav ul li a{
+  font-size: 14px;
+  font-weight: 700;
+  padding-left: 24px;
+  text-transform: uppercase;
+}
+
+header h1{
+  color: #000;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 23px;
+  margin-right: 18px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  text-transform: uppercase;
+}
+
+/***Welcome Styles****/
+
+section img{
+  border-bottom: 3px solid #77a466;
+  border-top: 3px solid #77a466;
+}
+#welcome h2{
+  color: #77a466;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+
+#welcome p{
+  line-height: 25px;
+  padding-bottom: 20px;
+}
+
+/****Content Styles****/
+#content h2{
+  color: #000;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+#content #menu-items, #content #review, #content #contact{
+border-top: 2px solid #dedbdc;
+border-bottom: 2px solid #dedbdc;
+padding-top: 24px;
+}
+
+#content #review h2, #content #contact h2, #content #review p, #content #contact p{
+  padding-left: 22px;
+  padding-right: 42px;
+}
+
+#content #menu-items{
+  line-height: 18px;
+  padding-bottom: 41px;
+}
+
+#content #review{
+  border-left: 2px solid #dedbdc;
+  border-right: 2px solid #dedbdc;
+  line-height: 21px;
+  padding-bottom: 3px;
+}
+
+#content #contact{
+  line-height: 24px;
+  padding-bottom: 55px;
+}
+
+/****Footer Styles****/
+footer {
+  color: #000;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+footer h2{
+  padding-top: 30px;
+}
+
+h2 span.emphasis{
+  color: #77a466;
+  font-family: 'Yesteryear', cursive;
+  text-transform: lowercase;
+}
